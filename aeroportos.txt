@@ -1,0 +1,258 @@
+grafo.addNo(new No('New York', 60, 74));
+grafo.addNo(new No('Winnipeg', 40, 90));
+grafo.addNo(new No('San Francisco', 20, 60));
+grafo.addNo(new No('Cidade do México', 50, 45));
+grafo.addNo(new No('Buenos Aires', 65, 20));
+grafo.addNo(new No('Brasília', 75, 35));
+grafo.addNo(new No('Bogotá', 60, 38));
+grafo.addNo(new No('Lima', 50, 36));
+grafo.addNo(new No('Joanesburgo', 100, 25));
+grafo.addNo(new No('Nairóbi', 120, 55));
+grafo.addNo(new No('Lagos', 90, 85));
+grafo.addNo(new No('Trípoli', 40, 74));
+grafo.addNo(new No('Reykjavík', 40, 74));
+grafo.addNo(new No('Moscou', 40, 74));
+grafo.addNo(new No('Paris', 40, 74));
+grafo.addNo(new No('Baku', 40, 74));
+grafo.addNo(new No('Mumbai', 40, 74));
+grafo.addNo(new No('Tóquio', 40, 74));
+grafo.addNo(new No('Ulan Bator', 40, 74));
+grafo.addNo(new No('Kuala Lumpur', 40, 74));
+grafo.addNo(new No('Perth', 40, 74));
+grafo.addNo(new No('Auckland', 40, 74));
+grafo.addNo(new No('Manaus', 40, 74));
+grafo.addNo(new No('Vancouver', 40, 74));
+grafo.addNo(new No('Omsk', 40, 74));
+grafo.addNo(new No('Viena', 40, 74));
+grafo.addNo(new No('Riad', 40, 74));
+grafo.addNo(new No('Chongqing', 40, 74));
+grafo.addNo(new No('Malé', 40, 74));
+grafo.addNo(new No('Manila', 40, 74));
+
+
+[
+  
+    // New York
+    [
+      'Winnipeg',
+      "Cidade do México",
+      "Reykjavík",
+      "Paris"
+    ],
+
+    //Winnipeg
+    [
+      "Vancouver",
+      "New York"
+    ],
+
+    //San Francisco
+    [
+      "Vancouver",
+      "Cidade do México"
+    ],
+
+    //Cidade do México
+    [
+      "San Francisco",
+      "New York",
+      "Bogotá"
+    ],
+
+    //Buenos Aires
+    [
+      "Brasília",
+      "Lima",
+      "Manaus",
+      "Joanesburgo"
+    ],
+    
+    //Brasília
+    [
+      "Manaus",
+      "Buenos Aires",
+      "Lagos"
+    ],
+
+    //Bogotá
+    [
+      "Cidade do México",
+      "Lima",
+      "Manaus"
+    ],
+
+    //Lima
+    [
+      "Bogotá",
+      "Buenos Aires"
+    ],
+
+    //Joanesburgo
+    [
+      "Buenos Aires",
+      "Lagos",
+      "Nairóbi",
+      "Perth"
+
+    ],
+
+    //Nairóbi
+    [
+      "Riad",
+      "Joanesburgo",
+      "Lagos"
+    ],
+
+    //Lagos
+    [
+      "Brasília",
+      "Trípoli",
+      "Riad",
+      "Nairóbi",
+      "Joanesburgo"
+    ],
+
+    //Trípoli
+    [
+      "Paris",
+      "Viena",
+      "Lagos"
+    ],
+
+    //Reykjavík
+    [
+      "New York",
+      "Paris",
+      "Moscou"
+    ],
+
+    //Moscou
+    [
+      "Baku",
+      "Viena",
+      "Reykjavík",
+      "Omsk"
+    ],
+
+    //Paris
+    [
+      "New York",
+      "Reykjavík",
+      "Viena",
+      "Trípoli"
+    ],
+
+    //Baku
+    [
+      "Riad",
+      "Moscou",
+      "Omsk",
+      "Viena",
+      "Mumbai"
+    ],
+
+    //Mumbai
+    [
+      "Malé",
+      "Baku",
+      "Omsk",
+      "Ulan Bator",
+      "Chongqing",
+      "Kuala Lumpur"
+    ],
+
+    //Tóquio
+    [
+      "Ulan Bator",
+      "Chongqing",
+      "Auckland"
+
+    ],
+
+    //Ulan Bator
+    [
+      "Chongqing",
+      "Tóquio",
+      "Mumbai",
+      "Omsk"
+
+    ],
+
+    //Kuala Lumpur
+    [
+      "Mumbai",
+      "Chongqing",
+      "Perth",
+      "Auckland",
+      "Manila"
+    ],
+
+    //Perth
+    [
+      "Joanesburgo",
+      "Kuala Lumpur",
+      "Auckland"
+    ],
+
+    //Auckland
+    [
+      "Tóquio",
+      "Kuala Lumpur",
+      "Perth"
+    ],
+
+    //Manaus
+    [
+      "Bogotá",
+      "Brasília",
+      "Buenos Aires"
+    ],
+
+    //Vancouver
+    [
+      "San Francisco",
+      "Winnipeg"
+    ],
+
+    //Omsk
+    [
+      "Moscou",
+      "Baku",
+      "Mumbai",
+      "Ulan Bator"
+
+    ],
+
+    //Viena
+    [
+      "Paris",
+      "Trípoli",
+      "Baku",
+      "Moscou"
+    ],
+
+    //Riad
+    [
+      "Baku",
+      "Nairóbi",
+      "Lagos"
+    ],
+
+    //Chongqing
+    [
+      "Mumbai",
+      "Ulan Bator",
+      "Kuala Lumpur",
+      "Tóquio"
+    ],
+
+    //Malé
+    [
+      "Mumbai"
+    ],
+
+    //Manila
+    [
+      "Kuala Lumpur"
+    ]
+]
