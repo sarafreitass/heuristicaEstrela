@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="script/main.js" defer></script>
+  <script src="script/sketch.js" defer></script>
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1>
+      <center>Algoritmo A* - Aplicações em destinos de aviões </center>
+    </h1>
+  </header>
+
+
+  <div class="section">
+
+    <div class="menu">
+
+      <form action="#" method="post">
+
+        <div style="display: inline-block;">
+          <label for="noinicial">Escolha o nó inicial: </label>
+          <select id="noinicial">
+            <option>
+              New York
+            </option>
+            <option>
+              Winnipeg
+            </option>
+            <option>
+              Cidade do México
+            </option>
+            <option>
+              Reykjavík
+            </option>
+            <option>
+              Paris
+            </option>
+            <option>
+              Vancouver
+            </option>
+            <option>
+              San Francisco
+            </option>
+            <option>
+              Bogotá
+            </option>
+            <option>
+              Buenos Aires
+            </option>
+            <option>
+              Brasília
+            </option>
+            <option>
+              Lima
+            </option>
+            <option>
+              Manaus
+            </option>
+            <option>
+              Joanesburgo
+            </option>
+            <option>
+              Lagos
+            </option>
+            <option>
+              Moscou
+            </option>
+            <option>
+              Viena
+            </option>
+            <option>
+              Trípoli
+            </option>
+            <option>
+              Perth
+            </option>
+            <option>
+              Nairóbi
+            </option>
+            <option>
+              Riad
+            </option>
+            <option>
+              Omsk
+            </option>
+          </select>
+        </div>
+
+        <div style="display: inline-block;">
+          <label for="nofinal">Escolha o nó final:</label>
+          <select id="nofinal">
+            <option>
+              New York
+            </option>
+            <option>
+              Winnipeg
+            </option>
+            <option>
+              Cidade do México
+            </option>
+            <option>
+              Reykjavík
+            </option>
+            <option>
+              Paris
+            </option>
+            <option>
+              Vancouver
+            </option>
+            <option>
+              San Francisco
+            </option>
+            <option>
+              Bogotá
+            </option>
+            <option>
+              Buenos Aires
+            </option>
+            <option>
+              Brasília
+            </option>
+            <option>
+              Lima
+            </option>
+            <option>
+              Manaus
+            </option>
+            <option>
+              Joanesburgo
+            </option>
+            <option>
+              Lagos
+            </option>
+            <option>
+              Moscou
+            </option>
+            <option>
+              Viena
+            </option>
+            <option>
+              Trípoli
+            </option>
+            <option>
+              Perth
+            </option>
+            <option>
+              Nairóbi
+            </option>
+            <option>
+              Riad
+            </option>
+            <option>
+              Omsk
+            </option>
+          </select>
+        </div>
+
+        <div class="radio-group">
+          <input type="checkbox" id="heuristica">
+          <label for="heuristica"> Usar heurística Errada? </label><br>
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <main>
+      <div class="lista">
+        <br>
+        <h3>Lista de nós:</h3> <br>
+        <div class="nosabertos">
+          <h6>Nós Abertos</h6>
+          <ul id="listaAbertos"></ul>
+
+        </div>
+        <div class="nosfechados">
+          <h6>Nós Fechados</h6>
+          <ul id="listaFechados"></ul>
+
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+
+      <h5>Desenvolvido por: Guilherme Cavo, João Vitor Quessada, Sara Freitas e Vinícius Torres para a disciplina SI702
+        - Inteligência Artificial</h5>
+
+    </footer>
+
+</body>
+
+</html>

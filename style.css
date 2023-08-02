@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+
+  height: 80px;
+  width: 40%;
+  background-color: #A3D5FF;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  box-sizing: 0;
+  margin: 0;
+  border-radius: 25px;
+
+}
+
+body {
+
+  height: 100%;
+  width: 100%;
+  background-image: url("imagens/mundinho2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Raleway';
+  font-style: italic;
+  padding: 3vh 0;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+footer {
+
+  height: 2.5%;
+  width: 100%;
+  background-color: #A3D5FF;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.p5Canvas {
+  /* border-radius: 25%; */
+  border: .25rem solid grey;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.lista {
+  width: 35%;
+  text-align: center;
+  color: #000000;
+  border-radius: 25%;
+  border: .25rem solid grey;
+  background-color: #A3d5ff;
+}
+
+.nosabertos {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.nosfechados {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.lista-text {
+  font-size: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 10px 10px 10px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
